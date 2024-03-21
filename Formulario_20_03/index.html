@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method=post action="https://www.w3schools.com/action_page.php">
+        <label for="date"><b>Data</b></label><br>
+        <input type="date" name="date"><br><br>	
+
+        <fieldset style="width: 200px;">
+            <legend><b>Dados de acesso</b></legend>
+            <label for="usuario">Usuário:</label><br>
+            <input type="text" id="usuario" name="usuario" required><br>
+            <label for="password">Senha:</label><br>
+            <input type="password" name="pas" required><br><br><br>
+          </fieldset>
+        <br><br>
+
+        <label for="dados"><b>Dados pessoais</b></label><br>
+        <label for="n">Nome:</label>
+        <input id="n" type="text" name="nome"><br><br>
+        <label for="end">Endereço</label>
+        <input id="end" type="search" name="end"><br><br>
+        <label for="num">Número</label>
+        <input id="num" type="number" name="number"><br><br>
+        <label for="comp">Complemento</label>
+        <input id="comp" type="search" name="comp"><br><br>
+        <label for="cidade">Cidade</label>
+        <input list="cidade" name="cidade" placeholder="Escolha a cidade">
+            <datalist id="cidades">
+                <option value=" Entrepelado">
+                <option value="Passa e Fica">
+                <option value="Anta Gorda">
+                <option value="Sombrio">
+                <option value="Salto do Lontra">
+            </datalist><br><br>
+        <label for="estado">Estado:</label>
+         <select id="estado" name="estado">
+            <option value="-"><selected>--</selected></option>
+            <option value="rs">RS</option>
+            <option value="rn">RN</option>
+            <option value="sc">SC</option>
+            <option value="pr">PR</option>
+        </select>
+        <br><br>
+        <label for="cep">CEP:</label>
+        <input id="cep" type="number" name="cep" maxlength="8" placeholder="Apenas números"><br><br>
+
+        <label for="genero"><b>Gênero</b></label><br>
+        <input type="radio" id="mas" name="genero" value="masculino">
+        <label for="mas">Masculino</label><br>
+        <input type="radio" id="fem" name="genero" value="feminino">
+        <label for="fem">Feminino</label><br>
+        <input type="radio" id="nfalar" name="genero" value="naofalar">
+        <label for="nfalar">Prefiro não falar</label>
+        <br><br>
+
+        <label for="curso"><b>Curso</b></label><br>
+        <input type="checkbox" id="ads" name="curso" value="ads">
+        <label for="ads">ADS</label><br>
+        <input type="checkbox" id="jogos" name="curso" value="jogos">
+        <label for="jogos">Jogos</label><br>
+        <input type="checkbox" id="gti" name="curso" value="gti">
+        <label for="gti"> Gestão de TI</label><br>
+        <input type="checkbox" id="bd" name="curso" value="bd">
+        <label for="bd">Banco de Dados</label>
+        <br><br>
+
+        <label for="modelo"><b>Modalidade</b></label><br>
+        <input type="radio" id="pres" name="modelo" value="presencial">
+        <label for="pres">Presencial</label><br>
+        <input type="radio" id="ead" name="modelo" value="ead">
+        <label for="ead">EAD</label><br>
+        <input type="radio" id="semi" name="modelo" value="semi">
+        <label for="semi">Semi presencial</label>
+        <br><br>
+        
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
