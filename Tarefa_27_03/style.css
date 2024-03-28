@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+.box{
+    background-color: black;
+    border: 1px solid greenyellow;
+    width: 485px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+header{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: green;
+    font-size: 20px;
+    margin-inline: 58px;
+    margin-inline-end: 30px;
+    
+}
+
+.nav{
+    background-color: greenyellow;
+    display: inline-flex;
+    width: 485px;
+}
+
+main{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0.5px solid white;
+    background-color: greenyellow;
+}
+
+section{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    text-align:left;
+}
+
+.img{
+    width: 150px;
+    margin-left: 25%;
+    border-radius: 20px;
+}
+
+.img_1{
+    margin-left: 25%;
+    width: 150px;
+    border-radius: 20px;
+    
+}
+
+footer{
+    background-color: green;
+    display: inline-flex;
+    width: 485px;
+    height: 60px;
+    align-content: space-between;
+}
+
+.footer_text{
+    margin-inline: 130px;
+    margin-inline-start: 15%;
+    padding: 10px;
+    color: white;
+    
+}
+
+.shadows{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rubik{
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  
