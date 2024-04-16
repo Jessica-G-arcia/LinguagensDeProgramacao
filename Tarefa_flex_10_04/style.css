@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+main {
+    width: 75%;
+    background-color: aquamarine;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    unicode-bidi: isolate;
+}
+
+nav {
+    background-color: #d9e628;
+    height: 20px;
+    padding: 10px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.section_1 {
+    background-color: #f4f4f4;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    unicode-bidi: isolate;
+}
+
+.section_2 {
+    background-color: #b6b6b6;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    unicode-bidi: isolate;
+}
+
+.section_3 {
+    background-color: #525252;
+    height: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    unicode-bidi: isolate;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+footer {
+    background-color: #f3de24;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    unicode-bidi: isolate;
+}
